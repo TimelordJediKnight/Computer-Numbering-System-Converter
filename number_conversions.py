@@ -176,6 +176,4 @@ def main():
     while True:
         convertLoop()
 
-
-print(chr(bin_dec('111111010011')))
-print(bin_dec('1111110100114'))
+main()
