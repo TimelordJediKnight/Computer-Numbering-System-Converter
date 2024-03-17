@@ -1,4 +1,5 @@
 #This program will convert between decimal, decimal, hexadecimal and octal
+#The input must be positive
            
 def bin_dec(binary : str):
     """Enter a binary number and return the decimal representation"""
