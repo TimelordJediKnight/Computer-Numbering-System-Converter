@@ -151,13 +151,13 @@ def convertLoop(): # binary:% octal:0 hexadecimal:$
     elif prompt[0][0] == "0" and prompt[1] in ("hex", "hexadecimal"):
         print(oct_hex(prompt[0]))
         
-    elif prompt[0][0] == "$" and prompt[1] in ("dec", "decimal"):
+    elif prompt[0][0] == "#" and prompt[1] in ("dec", "decimal"):
         print(hex_dec(prompt[0]))
         
-    elif prompt[0][0] == "$" and prompt[1] in ("bin", "binary"):
+    elif prompt[0][0] == "#" and prompt[1] in ("bin", "binary"):
         print(hex_bin(prompt[0]))
         
-    elif prompt[0][0] == "$" and prompt[1] in ("oct", "octal"):
+    elif prompt[0][0] == "#" and prompt[1] in ("oct", "octal"):
         print(hex_oct(prompt[0]))
         
     elif int(prompt[0][0]) > 0 and prompt[1] in ("bin", "binary"):
